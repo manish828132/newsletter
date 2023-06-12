@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>failure</title>
+    <style>
+        *{
+            margin:0;
+        }
+        .success{
+            background-color: rgba(107, 105, 105, 0.658);
+            height: 30vh;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+            margin-top:4rem;
+            color: blueviolet;
+        }
+        span{
+            color: crimson;
+        }
+        .but-ton{
+            color: aliceblue;
+            background-color: darkorange;
+            border-style: none;
+            padding: 0.5rem;
+            border-radius: 9px;
+            
+
+
+        }
+        form{
+            margin-top: 4px;
+           text-align: center;
+           padding: 1rem;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="success">
+        <h1>❌There is something <span>error</span> please try again !</h1>
+        <form action="/failure" method="post">
+            
+            <button type="submit" name="button" class="but-ton">Try Again</button>
+        </form>
+    </div>
+</body>
+</html>
